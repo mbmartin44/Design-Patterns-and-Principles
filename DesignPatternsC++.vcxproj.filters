@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Decorator Design Pattern">
+      <UniqueIdentifier>{9587dab5-71b5-4dbd-8a5e-1ea16c374478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory Method Design Pattern">
+      <UniqueIdentifier>{ac26c39e-ad2a-4e12-894d-10efd6132c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer Design Pattern">
+      <UniqueIdentifier>{37b7570a-23ed-428b-9707-3f835f005e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strategy Design Pattern">
+      <UniqueIdentifier>{0f14a1f9-c6dd-4ebb-b328-7020381df6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependency Injection">
+      <UniqueIdentifier>{2b0ab6f3-8b0a-43c0-a0a1-6d31485122ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iterator Design Pattern">
+      <UniqueIdentifier>{c41b8667-d7e7-49ce-9e29-6dd0ebdd2a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State Pattern">
+      <UniqueIdentifier>{bfb0a217-1f0e-43a1-9721-e20f186658a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOLID Design Principles">
+      <UniqueIdentifier>{50d08e88-f30d-4072-b6e9-c46ab333105b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DecoratorExample.cpp">
+      <Filter>Decorator Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="FM_SimpleExample.cpp">
+      <Filter>Factory Method Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="ObserverExample.cpp">
+      <Filter>Observer Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyExample.cpp">
+      <Filter>Strategy Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="FM_MoreComplexExample.cpp">
+      <Filter>Factory Method Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="DependencyInjection.cpp">
+      <Filter>Dependency Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="IteratorExample.cpp">
+      <Filter>Iterator Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="StateExample.cpp">
+      <Filter>State Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleResponsibility.cpp">
+      <Filter>SOLID Design Principles</Filter>
+    </ClCompile>
+    <ClCompile Include="openClosedPrinciple.cpp">
+      <Filter>SOLID Design Principles</Filter>
+    </ClCompile>
+    <ClCompile Include="LiskovSubstitutionPrinciple.cpp">
+      <Filter>SOLID Design Principles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="pushVsPullArchitecture.txt">
+      <Filter>Observer Design Pattern</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

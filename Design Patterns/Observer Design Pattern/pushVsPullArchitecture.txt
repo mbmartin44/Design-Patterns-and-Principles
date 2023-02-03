@@ -1,0 +1,26 @@
+Push Vs. Pull Architectures
+
+The push and pull architectures refer to the way that the subject (or publisher) sends updates to its observers (or subscribers) in the observer pattern.
+
+In the push architecture, the subject sends updates to its observers as soon as they occur, regardless of whether the observers are ready or willing to receive them.
+The subject is responsible for sending the full set of data needed by the observer to update its state.
+This approach is simple to implement, but can lead to unnecessary updates and data transfer if the observer is not interested in certain aspects of the update.
+
+In the pull architecture, the observer is responsible for requesting updates from the subject when it is ready to receive them.
+The subject only sends the data that the observer specifically requests. This approach is more flexible, as it allows the observer to control when
+and how it receives updates, but it also requires more coordination between the subject and observer to ensure that the observer has the most up-to-date data.
+
+Both push and pull have their own advantages and disadvantages, it depends on the specific use case and requirements of the system which one to choose.
+
+*************************************************************************************************************************************************************************
+Another way to think of it is as communication between different systems or services.
+
+Push architecture means that a system initiates the communication and sends data to another system without waiting for a request.
+This is also known as "publish-subscribe" pattern.
+
+Pull architecture means that a system initiates the communication by requesting data from another system.
+This is also known as "request-response" pattern.
+
+In Observer pattern, the subject notifies the observers about the change of its state, this can be done in both push and pull way.
+In push architecture, the subject sends the updated information to all the observers as soon as the state changes,
+ while in pull architecture, the observer pulls the updated information from the subject when they are ready to receive it.
